@@ -21,7 +21,7 @@ services:
           ignore:
             - .venv/
         - action: rebuild
-          path: ./pyproject.toml
+          path: ./uv.lock
     deploy:
       resources:
         reservations:
